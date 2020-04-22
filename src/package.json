@@ -1,0 +1,28 @@
+{
+  "name": "covid-api",
+  "version": "1.0.0",
+  "description": "A simple to use api related to the current COVID-19 outbreak",
+  "main": "index.js",
+  "scripts": {
+    "startDev": "nodemon index.js"
+  },
+  "keywords": [
+    "covid19",
+    "sars2",
+    "corona-virus"
+  ],
+  "author": "Mahdi Djaber",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "countries-code": "^1.0.8",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.3",
+    "parse-csv": "^0.2.0",
+    "path": "^0.12.7",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5",
+    "require-dir": "^1.2.0"
+  }
+}

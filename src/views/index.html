@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>COVID-19 RESTful API</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/96b126c578.js" crossorigin="anonymous"></script>
+<style type="text/css">
+	.container {
+		margin-top: 3%;
+	}
+	footer {
+		margin-top: 3%;
+	}
+	.fab.fa-github {
+		color: white;
+	}
+</style>
+</head>
+<body>
+
+<h2 class="border border-info">
+Welcome to the COVID-19 RESTful API <i class="fas fa-virus"></i> ! 
+<small class="text-muted">Built upon Node.js , express , cherrio and request-promise</small>
+</h2>
+<div class="container">
+	<!-- Routes -->
+	<div>
+		<h3 class="font-weight-lighter" align="center">Routes available on V1.0</h3>
+		<!-- /countries -->
+		<div class="countries">
+			<h4>/countries <span class="badge badge-info">GET</span></h4>
+			<h5>Gets the list of all currently infected countries and thier stats , could be filtered by the continent.</h5>
+	<table class="table table-dark table-hover">
+  <thead>
+    <tr>
+      <th scope="col">Param</th>
+      <th scope="col">Description</th>
+      <th scope="col">Type</th>
+      <th scope="col">Default</th>
+      <th scope="col">Expected input</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr>
+      	<th scope="row">continent</th>
+      	<td>The continent name to filter countries by.</td>
+      	<td><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String" class="text-decoration-none">String</a></td>
+      	<td>all</td>
+      	<td>all, europe, north-america, asia, south-america, africa, oceania</td>
+      </tr>
+  </tbody>
+</table>
+		<h4><em>@returns </em> <a href="https://www.w3schools.com/js/js_json_objects.asp" class="text-decoration-none">JSON Object</a></h4>
+		</div>
+		<hr>
+		<!-- /country -->
+		<div class="country">
+			<h4>/country <span class="badge badge-info">GET</span></h4>
+			<h5>Gets the stats for a specific country.</h5>
+	<table class="table table-dark table-hover">
+  <thead>
+    <tr>
+      <th scope="col">Param</th>
+      <th scope="col">Description</th>
+      <th scope="col">Type</th>
+      <th scope="col">Default</th>
+      <th scope="col">Expected input</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr>
+      	<th scope="row">id</th>
+      	<td>The id of the country , could be a country name , alpha2 or alpha3.</td>
+      	<td><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String" class="text-decoration-none">String</a></td>
+      	<td>Required</td>
+      	<td>Required</td>
+      </tr>
+  </tbody>
+</table>
+		<h4><em>@returns </em> <a href="https://www.w3schools.com/js/js_json_objects.asp" class="text-decoration-none">JSON Object</a></h4>
+		</div>
+		<hr>
+				<!-- /summary -->
+		<div class="summary">
+			<h4>/summary <span class="badge badge-info">GET</span></h4>
+			<h5>Gets the overall stats (continents and worldwide) for COVID-19.</h5>
+	<table class="table table-dark table-hover">
+  <thead>
+    <tr>
+      <th scope="col">Param</th>
+      <th scope="col">Description</th>
+      <th scope="col">Type</th>
+      <th scope="col">Default</th>
+      <th scope="col">Expected input</th>
+    </tr>
+  </thead>
+  <tbody>
+
+  </tbody>
+</table>
+		<h4><em>@returns </em> <a href="https://www.w3schools.com/js/js_json_objects.asp" class="text-decoration-none">JSON Object</a></h4>
+		</div>
+	</div>
+</div>
+</body>
+
+<footer style="text-align: center;">
+<div class="container px-lg-5" style="color: white">
+  <div class="row mx-lg-n5">
+    <div class="col py-3 px-lg-5 border bg-dark">Built with <i class="fas fa-heart" style="color: red"></i> by <a href="https://www.facebook.com/profile.php?id=100013524615313" class="text-decoration-none">Mahdi Djaber</a></div>
+    <div class="col py-3 px-lg-5 border bg-dark">View the source code on <a href=""><i class="fab fa-github"></i></a></div>
+  </div>
+</div>
+</footer>
+</html>

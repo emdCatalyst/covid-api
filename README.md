@@ -1,10 +1,9 @@
-<div style="text-align:center;">
 
-<p>A simple to use yet powerfull api related to the current COVID-19 outbreak</p>
-</div>
+# covid-api
+A simple to use yet powerfull api related to the current COVID-19 outbreak
 
-# Status
-[![star this repo](http://githubbadges.com/star.svg?user=Mahdios&repo=covid-api&style=flat)](https://github.com/Mahdios/covid-api) [![fork this repo](http://githubbadges.com/fork.svg?user=Mahdios&repo=covid-api&style=flat)](https://github.com/Mahdios/covid-api/fork) ![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102) ![Open Source Love](https://badges.frapsoft.com/os/gpl/gpl.svg?v=102) ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square) ![Pending Pull-Requests](http://githubbadges.herokuapp.com/Mahdios/covid-api/pulls.svg?style=flat) [![Open Issues](http://githubbadges.herokuapp.com/Mahdios/covid-api/issues.svg?style=flat)](https://github.com/boennemann/badges/issues)
+
+## status : ![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102) ![Open Source Love](https://badges.frapsoft.com/os/gpl/gpl.svg?v=102) ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square) 
 # Features
 - Fast and reliable.
 - Free and open-source , no API-key required.
@@ -18,7 +17,7 @@ Review docs on the [website]()
 # Disclaimer
 
 <div style="text-align:center;">
-  <img style="display:inline-block;" src='https://forthebadge.com/images/badges/built-with-love.svg'>
-  <img style="display:inline-block;" src='https://forthebadge.com/images/badges/built-by-developers.svg'> 
-  <p>Data retrieved from <a href="https://www.worldometers.info/coronavirus/">worldometers</a> rights reserved to them</p>
+  <img align="center" style="display:inline-block;" src='https://forthebadge.com/images/badges/built-with-love.svg'>
+  <img align="center" style="display:inline-block;" src='https://forthebadge.com/images/badges/built-by-developers.svg'> 
+  <p>Data retrieved from <a href="https://www.worldometers.info/coronavirus/">worldometers</a> , rights reserved to them.</p>
 </div>

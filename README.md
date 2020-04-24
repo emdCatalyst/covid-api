@@ -13,7 +13,7 @@ A simple to use yet powerfull api related to the current COVID-19 outbreak
 - Retrieve deaths , cured , cases , new deaths/cases  ,critical , deaths/cases per million, tests done and tests per million worldwide or by a country id (name,alpha2,alpha3).
 - Implements a rankings system and sorts by continents.
 # Docs
-Review docs on the [website](https://mahdi-djaber.glitch.me/covid-api)
+Review docs on the [website](http://covid.mahdios.gq)
 # Disclaimer
 
 <div style="text-align:center;">
